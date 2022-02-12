@@ -1,10 +1,10 @@
 <template>
-<v-footer padless class="footer">
-    <v-card
-        flat
-        tile
-        class="footer-card text-center"
-    >
+    <v-footer padless class="footer">
+        <v-card
+            flat
+            tile
+            class="footer-card text-center"
+        >
         <v-card-text class="footer-card-top">
             <v-btn
                 v-for="icon in icons"
@@ -19,9 +19,9 @@
         </v-card-text>
         <v-card-text class="footer-card-bottom">
             <v-btn text to="/" color="black"> Home </v-btn>
-            <v-btn text to="/tattoos" color="black"> Tattoos </v-btn>
-            <v-btn text to="/art"> Art </v-btn>
-            <v-btn text to="/contact"> Contact Me </v-btn>
+            <v-btn text to="/about" color="black"> About </v-btn>
+            <v-btn text to="/faq"> FAQ </v-btn>
+            <v-btn text to="/book"> Book </v-btn>
         </v-card-text>
         <v-divider></v-divider>
       </v-card>
@@ -33,14 +33,6 @@ export default {
     data(){
         return {
         icons: [
-          {
-              icon: 'fa fa-facebook',
-              link: 'https://www.facebook.com/TimounKontan'
-          },
-          {
-              icon: 'fa fa-linkedin',
-              link: 'https://www.linkedin.com/company/timoun-kontan/'
-          },
           {
               icon: 'fa fa-instagram',
               link: 'https://www.instagram.com/timounkontan/'

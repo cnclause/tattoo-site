@@ -1,36 +1,47 @@
 <template>
-    <v-app-bar elevate-on-scroll="4" app fixed max-height=5rem short color='white'>
+    <v-app-bar elevate-on-scroll app fixed max-height=5rem short color='white'>
       <v-toolbar-items right class="hidden-sm-and-down nav-bar">
       <v-menu open-on-hover offset-x>
         <template v-slot:activator="{ on }">
           <v-btn
-            to='/tattoos'
+            to='/'
             v-on="on"
             text
           >
-          Tattoo
+          Home
           </v-btn>
         </template>
       </v-menu>
       <v-menu open-on-hover offset-x>
         <template v-slot:activator="{ on }">
           <v-btn
-            to='/art'
+            to='/about'
             v-on="on"
             text
           >
-          Art
+          About
           </v-btn>
         </template>
       </v-menu>
       <v-menu open-on-hover offset-x>
         <template v-slot:activator="{ on }">
           <v-btn
-            to='/contact'
+            to='/faq'
             v-on="on"
             text
           >
-          Contact Me
+          FAQ
+          </v-btn>
+        </template>
+      </v-menu>
+      <v-menu open-on-hover offset-x>
+        <template v-slot:activator="{ on }">
+          <v-btn
+            to='/booking'
+            v-on="on"
+            text
+          >
+          Booking
           </v-btn>
         </template>
       </v-menu>
@@ -45,13 +56,13 @@
             <v-list-item to='/' exact>
               Home
             </v-list-item>
-            <v-list-item to='/tattoos'>
+            <v-list-item to='/about'>
               Tattoos
             </v-list-item>
-            <v-list-item to='/art'>
+            <v-list-item to='/faq'>
               Art
             </v-list-item>
-            <v-list-item to='/contact'>
+            <v-list-item to='/booking'>
               Contact Me
             </v-list-item>
           </v-list-item-content>

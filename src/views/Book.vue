@@ -1,6 +1,6 @@
 <template>
-  <div class="tattoos">
-    <h1>Tat tat tats </h1>
+  <div class="book">
+    <h1>lesss book </h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
   // import HelloWorld from '../components/HelloWorld'
 
   export default {
-    name: 'Tattoos',
+    name: 'book',
 
     // components: {
     //   HelloWorld,

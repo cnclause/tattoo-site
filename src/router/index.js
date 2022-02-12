@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Tattoos from '../views/Tattoos.vue'
-import Art from '../views/Art.vue'
-import Contact from '../views/Contact.vue'
-// import Trivia from '../components/TriviaNight/trivia.vue'
+import About from '../views/About.vue'
+import FAQ from '../views/FAQ.vue'
+import Booking from '../views/Book.vue'
 
 
 Vue.use(VueRouter)
@@ -16,19 +15,19 @@ const routes = [
     component: Home
   },
   {
-    path: '/tatttoos',
-    name: 'tattoos',
-    component: Tattoos
+    path: '/about',
+    name: 'about',
+    component: About
   },
   {
-    path:'/art',
-    name:'art',
-    component: Art
+    path:'/faq',
+    name:'faq',
+    component: FAQ
   },
   {
-    path:'/contact',
-    name:'contact',
-    component: Contact
+    path:'/booking',
+    name:'booking',
+    component: Booking
   },
 ]
 

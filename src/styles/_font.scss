@@ -46,6 +46,16 @@ $body-font-family: 'semplicitapro', sans-serif;
         text-transform: uppercase;
 
     }
+    .title.display-3{
+        font-family: $body-font-family !important;
+        font-size: 30pt !important;
+        line-height: 6rem !important;
+        font-weight: 300 !important;
+        padding-bottom: 2rem !important;
+        padding-top: 2rem !important;
+        text-transform: uppercase;
+
+    }
     .title.display-2{
         font-family: $body-font-family !important;
         font-size: 30pt !important;
